@@ -1,0 +1,375 @@
+**********************************
+Network A:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+Network B:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=1.0 fraction_A=0.0 fraction_B=0.3898400000000001
+		p=0.2822222222222222 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+Network B:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.2822222222222222 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+Network B:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.63437 fraction_B=0.63437
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.52908 fraction_B=0.52908
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.21532999999999997 fraction_B=0.21532999999999997
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+Network B:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.6477199999999999 fraction_B=0.6477199999999999
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.52395 fraction_B=0.52395
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.41636000000000006 fraction_B=0.41636000000000006
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+Network B:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.6377200000000001 fraction_B=0.6377200000000001
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.52268 fraction_B=0.52268
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+Network B:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=1.0 fraction_A=0.0 fraction_B=0.64196
+		p=0.2822222222222222 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+Network B:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+Network B:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+Network B:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+Network B:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+Network B:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.64222 fraction_B=0.64222
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.5263700000000001 fraction_B=0.5263700000000001
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.17243 fraction_B=0.36879
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.31196
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.15205
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+Network B:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+Network B:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.7178000000000001 fraction_B=0.7178000000000001
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.6634000000000001 fraction_B=0.6634000000000001
+		p=0.3911111111111111 num_iter=2.0 fraction_A=0.6089000000000001 fraction_B=0.6089000000000001
+		p=0.44555555555555554 num_iter=2.0 fraction_A=0.5545 fraction_B=0.5545
+		p=0.5 num_iter=2.0 fraction_A=0.5 fraction_B=0.5
+**********************************
+**********************************
+Network A:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+Network B:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.7178000000000001 fraction_B=0.7178000000000001
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.6634000000000001 fraction_B=0.6634000000000001
+		p=0.3911111111111111 num_iter=2.0 fraction_A=0.6089000000000001 fraction_B=0.6089000000000001
+		p=0.44555555555555554 num_iter=2.0 fraction_A=0.5545 fraction_B=0.5545
+		p=0.5 num_iter=2.0 fraction_A=0.5 fraction_B=0.5
+**********************************
+**********************************
+Network A:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+Network B:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.7178000000000001 fraction_B=0.7178000000000001
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.6634000000000001 fraction_B=0.6634000000000001
+		p=0.3911111111111111 num_iter=2.0 fraction_A=0.6089000000000001 fraction_B=0.6089000000000001
+		p=0.44555555555555554 num_iter=2.0 fraction_A=0.5545 fraction_B=0.5545
+		p=0.5 num_iter=2.0 fraction_A=0.5 fraction_B=0.5
+**********************************
+**********************************
+Network A:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+Network B:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.6475899999999999 fraction_B=0.6475899999999999
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.5237 fraction_B=0.5237
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.42006 fraction_B=0.42006
+		p=0.3911111111111111 num_iter=1.1 fraction_A=0.033460000000000004 fraction_B=0.31799
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.08196999999999999
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+Network B:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+Network B:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.7178000000000001 fraction_B=0.7178000000000001
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.6634000000000001 fraction_B=0.6634000000000001
+		p=0.3911111111111111 num_iter=2.0 fraction_A=0.6089000000000001 fraction_B=0.6089000000000001
+		p=0.44555555555555554 num_iter=2.0 fraction_A=0.5545 fraction_B=0.5545
+		p=0.5 num_iter=2.0 fraction_A=0.5 fraction_B=0.5
+**********************************
+**********************************
+Network A:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+Network B:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.7178000000000001 fraction_B=0.7178000000000001
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.6634000000000001 fraction_B=0.6634000000000001
+		p=0.3911111111111111 num_iter=2.0 fraction_A=0.6089000000000001 fraction_B=0.6089000000000001
+		p=0.44555555555555554 num_iter=2.0 fraction_A=0.5545 fraction_B=0.5545
+		p=0.5 num_iter=2.0 fraction_A=0.5 fraction_B=0.5
+**********************************
+**********************************
+Network A:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+Network B:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.7178000000000001 fraction_B=0.7178000000000001
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.6634000000000001 fraction_B=0.6634000000000001
+		p=0.3911111111111111 num_iter=2.0 fraction_A=0.6089000000000001 fraction_B=0.6089000000000001
+		p=0.44555555555555554 num_iter=2.0 fraction_A=0.5545 fraction_B=0.5545
+		p=0.5 num_iter=2.0 fraction_A=0.5 fraction_B=0.5
+**********************************
+**********************************
+Network A:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+Network B:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.64815 fraction_B=0.64815
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.5228900000000001 fraction_B=0.5228900000000001
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.41777999999999993
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.31977
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.13594
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+Network B:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=1.1 fraction_A=0.07178 fraction_B=0.07178
+		p=0.33666666666666667 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3911111111111111 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.44555555555555554 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+Network B:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.7178000000000001 fraction_B=0.7178000000000001
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.6634000000000001 fraction_B=0.6634000000000001
+		p=0.3911111111111111 num_iter=2.0 fraction_A=0.6089000000000001 fraction_B=0.6089000000000001
+		p=0.44555555555555554 num_iter=2.0 fraction_A=0.5545 fraction_B=0.5545
+		p=0.5 num_iter=2.0 fraction_A=0.5 fraction_B=0.5
+**********************************
+**********************************
+Network A:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+Network B:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.7178000000000001 fraction_B=0.7178000000000001
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.6634000000000001 fraction_B=0.6634000000000001
+		p=0.3911111111111111 num_iter=2.0 fraction_A=0.6089000000000001 fraction_B=0.6089000000000001
+		p=0.44555555555555554 num_iter=2.0 fraction_A=0.5545 fraction_B=0.5545
+		p=0.5 num_iter=2.0 fraction_A=0.5 fraction_B=0.5
+**********************************
+**********************************
+Network A:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+Network B:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.06444444444444444 num_iter=2.0 fraction_A=0.9356000000000002 fraction_B=0.9356000000000002
+		p=0.11888888888888888 num_iter=2.0 fraction_A=0.8812 fraction_B=0.8812
+		p=0.17333333333333334 num_iter=2.0 fraction_A=0.8267 fraction_B=0.8267
+		p=0.22777777777777777 num_iter=2.0 fraction_A=0.7722999999999999 fraction_B=0.7722999999999999
+		p=0.2822222222222222 num_iter=2.0 fraction_A=0.7178000000000001 fraction_B=0.7178000000000001
+		p=0.33666666666666667 num_iter=2.0 fraction_A=0.6634000000000001 fraction_B=0.6634000000000001
+		p=0.3911111111111111 num_iter=2.0 fraction_A=0.6089000000000001 fraction_B=0.6089000000000001
+		p=0.44555555555555554 num_iter=2.0 fraction_A=0.5545 fraction_B=0.5545
+		p=0.5 num_iter=2.0 fraction_A=0.5 fraction_B=0.5
+**********************************

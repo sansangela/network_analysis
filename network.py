@@ -1,6 +1,6 @@
 import random
 import numpy as np
-from scipy.stats import weibull_min, uniform
+from scipy.stats import weibull_min, uniform, pareto
 from collections import deque
 
 
@@ -36,6 +36,16 @@ class Network:
 
             # Generate uniform-distributed L values
             self.L_values = uniform.rvs(loc=L_min, scale=L_max - L_min, size=self.num_nodes)
+        
+        elif L_distribution_type == 'pareto':
+            if self.distribution_params is None:
+                raise ValueError("Pareto distribution requires distribution parameters.")
+
+            L_min = self.distribution_params['L_min'] 
+            b = self.distribution_params['b'] 
+
+            # Generate pareto-distributed L values
+            self.L_values = pareto.rvs(b, scale=L_min, size=self.num_nodes)
 
         ## Initialize S
         if S_distribution_type == 'linear':
@@ -56,7 +66,7 @@ class Network:
             # Generate uniform-distributed S values
             # self.S_values = uniform.rvs(loc=S_min, scale=S_max - S_min, size=self.num_nodes)  # scipy.stats uniform
             self.S_values = np.random.uniform(S_min, S_max, self.num_nodes)                     # numpy uniform
-
+        
         else:
             raise ValueError("Invalid distribution type.")
 
@@ -73,7 +83,6 @@ class Network:
             return fail_node_list
         
         fail_node_initial = random.sample(range(0,self.num_nodes), int(fail_node_size))
-        # print(f"Failing {fail_node_size} initial nodes.")
         fail_node_list = self.update_network(fail_node_initial)
         fail_node_list = fail_node_list + fail_node_initial
         return fail_node_list
@@ -95,7 +104,7 @@ class Network:
             num_remaining = np.count_nonzero(self.L_values)
 
             if num_remaining == 0:
-                print("Network vanished...")
+                # print("Network vanished...")
                 return fail_node_list
             
             extra_load_per_node = 1.0 * fail_load / num_remaining
@@ -115,10 +124,9 @@ class Network:
 
             
 
-
-def test(N, p, distribution, params):
-    network_A = Network(N, distribution, params)
-    network_B = Network(N, distribution, params)
+def test(N, p, distribution_A, params_A, distribution_B, params_B):
+    network_A = Network(N, distribution_A, params_A)
+    network_B = Network(N, distribution_B, params_B)
 
     # Init Failure
     fail_node_list = network_A.generate_fail_nodes(p)
@@ -128,37 +136,37 @@ def test(N, p, distribution, params):
     num_remaining_A, num_remaining_B = N, N
 
     while num_remaining_A > 0 and num_remaining_B > 0 and (old_num_remaining_A != num_remaining_A or old_num_remaining_B != num_remaining_B):
-        print(num_remaining_A, num_remaining_B)
         num_iter += 1
         
         old_num_remaining_A, old_num_remaining_B = num_remaining_A, num_remaining_B
 
         # Redistribute in Network B
-        # print("B before:", np.count_nonzero(network_B.L_values))
         fail_node_list = network_B.update_network(fail_node_list)
-        # print(fail_node_list)
         num_remaining_B = np.count_nonzero(network_B.L_values)
-        # print("B after:", num_remaining_B)
 
         # Redistribute in Network A
         fail_node_list = network_A.update_network(fail_node_list)
-        # print(fail_node_list)
         num_remaining_A = np.count_nonzero(network_A.L_values)
 
         if num_remaining_A == 0 and num_remaining_B == 0:
-            print("Network vanished...")
+            # print("Network vanished...")
             return num_iter, num_remaining_A/N, num_remaining_B/N
     
     return num_iter, num_remaining_A/N, num_remaining_B/N
 
 
-def main(N, n_case, num_experiments, p_array, distribution, params):
-    print(f"Case {n_case}: N={N} num_experiments={num_experiments}")
+
+def main(N, case_A, case_B, num_experiments, p_array, distribution_A, params_A, distribution_B, params_B):
+    print(f"Network A:{case_A}\nNetwork B:{case_B}\n\tN={N} num_experiments={num_experiments}")
     for p in p_array:
-        # print("*****************************************")
-        print(f"p={p}")
-        # total_remaining_A, total_remaining_B = 0, 0
+        total_fraction_A, total_fraction_B, total_iter = 0, 0, 0
         
         for i in range(num_experiments):
-            num_iter, fraction_A, fraction_B = test(N, p, distribution, params)
-            print(f"num_iter={num_iter} fraction_A={fraction_A} fraction_B={fraction_B}")
+            num_iter, fraction_A, fraction_B = test(N, p, distribution_A, params_A, distribution_B, params_B)
+            total_fraction_A += fraction_A
+            total_fraction_B += fraction_B
+            total_iter += num_iter
+        total_fraction_A /= num_experiments
+        total_fraction_B /= num_experiments
+        total_iter = 1.0 * total_iter / num_experiments
+        print(f"\t\tp={p} num_iter={total_iter} fraction_A={total_fraction_A} fraction_B={total_fraction_B}")

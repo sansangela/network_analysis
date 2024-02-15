@@ -1,0 +1,875 @@
+**********************************
+Network A:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+Network B:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=1.9 fraction_A=0.0 fraction_B=0.04659
+		p=0.22413793103448276 num_iter=1.0 fraction_A=0.0 fraction_B=0.39375999999999994
+		p=0.2479310344827586 num_iter=1.0 fraction_A=0.0 fraction_B=0.28514
+		p=0.27172413793103445 num_iter=1.0 fraction_A=0.0 fraction_B=0.06003000000000001
+		p=0.29551724137931035 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3193103448275862 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+Network B:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=1.3 fraction_A=0.22178 fraction_B=0.22178
+		p=0.22413793103448276 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.2479310344827586 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.27172413793103445 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.29551724137931035 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3193103448275862 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+Network B:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7315499999999999 fraction_B=0.7315499999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.6531899999999999 fraction_B=0.6531899999999999
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.59585 fraction_B=0.59585
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.54359 fraction_B=0.54359
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.49755000000000005 fraction_B=0.49755000000000005
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.45228999999999997 fraction_B=0.45228999999999997
+		p=0.34310344827586203 num_iter=1.5 fraction_A=0.08474999999999999 fraction_B=0.11881
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+Network B:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.71946 fraction_B=0.71946
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.65697 fraction_B=0.65697
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.60108 fraction_B=0.60108
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.54835 fraction_B=0.54835
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.49387 fraction_B=0.49387
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.4492900000000001 fraction_B=0.4492900000000001
+		p=0.34310344827586203 num_iter=2.0 fraction_A=0.4106700000000001 fraction_B=0.4106700000000001
+		p=0.36689655172413793 num_iter=2.0 fraction_A=0.36379 fraction_B=0.36379
+		p=0.3906896551724138 num_iter=1.3 fraction_A=0.10047999999999999 fraction_B=0.10047999999999999
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+Network B:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7217 fraction_B=0.7217
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.6518799999999999 fraction_B=0.6518799999999999
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.59809 fraction_B=0.59809
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.5468599999999999 fraction_B=0.5468599999999999
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.4990800000000001 fraction_B=0.4990800000000001
+		p=0.3193103448275862 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+Network B:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=1.5 fraction_A=0.37534 fraction_B=0.73342
+		p=0.22413793103448276 num_iter=1.0 fraction_A=0.0 fraction_B=0.6613999999999999
+		p=0.2479310344827586 num_iter=1.0 fraction_A=0.0 fraction_B=0.596
+		p=0.27172413793103445 num_iter=1.0 fraction_A=0.0 fraction_B=0.27691
+		p=0.29551724137931035 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3193103448275862 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+Network B:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=1.2 fraction_A=0.14565999999999998 fraction_B=0.14565999999999998
+		p=0.29551724137931035 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3193103448275862 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+Network B:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=1.2 fraction_A=0.14565999999999998 fraction_B=0.14565999999999998
+		p=0.29551724137931035 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3193103448275862 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+Network B:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=1.6 fraction_A=0.43698 fraction_B=0.43698
+		p=0.29551724137931035 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3193103448275862 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+Network B:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=1.6 fraction_A=0.43698 fraction_B=0.43698
+		p=0.29551724137931035 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3193103448275862 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+Network B:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.73502 fraction_B=0.73502
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.6552899999999999 fraction_B=0.6552899999999999
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.59424 fraction_B=0.59424
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.5482699999999998 fraction_B=0.5482699999999998
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.49987999999999994 fraction_B=0.49987999999999994
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.44832 fraction_B=0.44832
+		p=0.34310344827586203 num_iter=1.2 fraction_A=0.04251 fraction_B=0.39221000000000006
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.36356
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.32048
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.27324000000000004
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.19480999999999998
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+Network B:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=1.6 fraction_A=0.43698 fraction_B=0.43698
+		p=0.29551724137931035 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3193103448275862 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+Network B:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.7283 fraction_B=0.7283
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.7045000000000001 fraction_B=0.7045000000000001
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.6807 fraction_B=0.6807
+		p=0.34310344827586203 num_iter=2.0 fraction_A=0.6569000000000002 fraction_B=0.6569000000000002
+		p=0.36689655172413793 num_iter=2.0 fraction_A=0.6332000000000001 fraction_B=0.6332000000000001
+		p=0.3906896551724138 num_iter=2.0 fraction_A=0.6094 fraction_B=0.6094
+		p=0.4144827586206896 num_iter=2.0 fraction_A=0.5856000000000001 fraction_B=0.5856000000000001
+		p=0.4382758620689655 num_iter=2.0 fraction_A=0.5618 fraction_B=0.5618
+		p=0.46206896551724136 num_iter=2.0 fraction_A=0.5380000000000001 fraction_B=0.5380000000000001
+		p=0.4858620689655172 num_iter=2.0 fraction_A=0.5141999999999999 fraction_B=0.5141999999999999
+		p=0.5096551724137931 num_iter=2.0 fraction_A=0.49040000000000006 fraction_B=0.49040000000000006
+		p=0.5334482758620689 num_iter=2.0 fraction_A=0.4666 fraction_B=0.4666
+		p=0.5572413793103448 num_iter=2.0 fraction_A=0.44279999999999997 fraction_B=0.44279999999999997
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.23041
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+Network B:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.7283 fraction_B=0.7283
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.7045000000000001 fraction_B=0.7045000000000001
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.6807 fraction_B=0.6807
+		p=0.34310344827586203 num_iter=2.0 fraction_A=0.6569000000000002 fraction_B=0.6569000000000002
+		p=0.36689655172413793 num_iter=2.0 fraction_A=0.6332000000000001 fraction_B=0.6332000000000001
+		p=0.3906896551724138 num_iter=2.0 fraction_A=0.6094 fraction_B=0.6094
+		p=0.4144827586206896 num_iter=2.0 fraction_A=0.5856000000000001 fraction_B=0.5856000000000001
+		p=0.4382758620689655 num_iter=2.0 fraction_A=0.5618 fraction_B=0.5618
+		p=0.46206896551724136 num_iter=2.0 fraction_A=0.5380000000000001 fraction_B=0.5380000000000001
+		p=0.4858620689655172 num_iter=2.0 fraction_A=0.5141999999999999 fraction_B=0.5141999999999999
+		p=0.5096551724137931 num_iter=2.0 fraction_A=0.49040000000000006 fraction_B=0.49040000000000006
+		p=0.5334482758620689 num_iter=2.0 fraction_A=0.4666 fraction_B=0.4666
+		p=0.5572413793103448 num_iter=2.0 fraction_A=0.44279999999999997 fraction_B=0.44279999999999997
+		p=0.5810344827586207 num_iter=2.0 fraction_A=0.4107099999999999 fraction_B=0.4107099999999999
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+Network B:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.7283 fraction_B=0.7283
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.7045000000000001 fraction_B=0.7045000000000001
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.6807 fraction_B=0.6807
+		p=0.34310344827586203 num_iter=2.0 fraction_A=0.6569000000000002 fraction_B=0.6569000000000002
+		p=0.36689655172413793 num_iter=2.0 fraction_A=0.6332000000000001 fraction_B=0.6332000000000001
+		p=0.3906896551724138 num_iter=2.0 fraction_A=0.6094 fraction_B=0.6094
+		p=0.4144827586206896 num_iter=2.0 fraction_A=0.5856000000000001 fraction_B=0.5856000000000001
+		p=0.4382758620689655 num_iter=2.0 fraction_A=0.5618 fraction_B=0.5618
+		p=0.46206896551724136 num_iter=2.0 fraction_A=0.5380000000000001 fraction_B=0.5380000000000001
+		p=0.4858620689655172 num_iter=2.0 fraction_A=0.5141999999999999 fraction_B=0.5141999999999999
+		p=0.5096551724137931 num_iter=2.0 fraction_A=0.49040000000000006 fraction_B=0.49040000000000006
+		p=0.5334482758620689 num_iter=1.7 fraction_A=0.32662 fraction_B=0.32662
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+Network B:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.72231 fraction_B=0.72231
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.65289 fraction_B=0.65289
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.5944400000000001 fraction_B=0.5944400000000001
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.55179 fraction_B=0.55179
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.49998999999999993 fraction_B=0.49998999999999993
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.45718 fraction_B=0.45718
+		p=0.34310344827586203 num_iter=2.0 fraction_A=0.40681 fraction_B=0.40681
+		p=0.36689655172413793 num_iter=2.0 fraction_A=0.36151000000000005 fraction_B=0.36151000000000005
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.31281
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.26633999999999997
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.16909
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.01998
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+Network B:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=1.5 fraction_A=0.36415 fraction_B=0.36415
+		p=0.29551724137931035 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3193103448275862 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+Network B:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.7283 fraction_B=0.7283
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.7045000000000001 fraction_B=0.7045000000000001
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.6807 fraction_B=0.6807
+		p=0.34310344827586203 num_iter=2.0 fraction_A=0.6569000000000002 fraction_B=0.6569000000000002
+		p=0.36689655172413793 num_iter=2.0 fraction_A=0.6332000000000001 fraction_B=0.6332000000000001
+		p=0.3906896551724138 num_iter=2.0 fraction_A=0.6094 fraction_B=0.6094
+		p=0.4144827586206896 num_iter=2.0 fraction_A=0.5856000000000001 fraction_B=0.5856000000000001
+		p=0.4382758620689655 num_iter=2.0 fraction_A=0.5618 fraction_B=0.5618
+		p=0.46206896551724136 num_iter=2.0 fraction_A=0.5380000000000001 fraction_B=0.5380000000000001
+		p=0.4858620689655172 num_iter=2.0 fraction_A=0.5141999999999999 fraction_B=0.5141999999999999
+		p=0.5096551724137931 num_iter=2.0 fraction_A=0.49040000000000006 fraction_B=0.49040000000000006
+		p=0.5334482758620689 num_iter=2.0 fraction_A=0.4666 fraction_B=0.4666
+		p=0.5572413793103448 num_iter=2.0 fraction_A=0.44279999999999997 fraction_B=0.44279999999999997
+		p=0.5810344827586207 num_iter=2.0 fraction_A=0.40899 fraction_B=0.40899
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+Network B:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.7283 fraction_B=0.7283
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.7045000000000001 fraction_B=0.7045000000000001
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.6807 fraction_B=0.6807
+		p=0.34310344827586203 num_iter=2.0 fraction_A=0.6569000000000002 fraction_B=0.6569000000000002
+		p=0.36689655172413793 num_iter=2.0 fraction_A=0.6332000000000001 fraction_B=0.6332000000000001
+		p=0.3906896551724138 num_iter=2.0 fraction_A=0.6094 fraction_B=0.6094
+		p=0.4144827586206896 num_iter=2.0 fraction_A=0.5856000000000001 fraction_B=0.5856000000000001
+		p=0.4382758620689655 num_iter=2.0 fraction_A=0.5618 fraction_B=0.5618
+		p=0.46206896551724136 num_iter=2.0 fraction_A=0.5380000000000001 fraction_B=0.5380000000000001
+		p=0.4858620689655172 num_iter=2.0 fraction_A=0.5141999999999999 fraction_B=0.5141999999999999
+		p=0.5096551724137931 num_iter=2.0 fraction_A=0.49040000000000006 fraction_B=0.49040000000000006
+		p=0.5334482758620689 num_iter=2.0 fraction_A=0.4666 fraction_B=0.4666
+		p=0.5572413793103448 num_iter=2.0 fraction_A=0.44279999999999997 fraction_B=0.44279999999999997
+		p=0.5810344827586207 num_iter=2.0 fraction_A=0.41899999999999993 fraction_B=0.41899999999999993
+		p=0.6048275862068965 num_iter=2.0 fraction_A=0.3952 fraction_B=0.3952
+		p=0.6286206896551724 num_iter=2.0 fraction_A=0.3714 fraction_B=0.3714
+		p=0.6524137931034483 num_iter=2.0 fraction_A=0.34759999999999996 fraction_B=0.34759999999999996
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+Network B:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.7283 fraction_B=0.7283
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.7045000000000001 fraction_B=0.7045000000000001
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.6807 fraction_B=0.6807
+		p=0.34310344827586203 num_iter=2.0 fraction_A=0.6569000000000002 fraction_B=0.6569000000000002
+		p=0.36689655172413793 num_iter=2.0 fraction_A=0.6332000000000001 fraction_B=0.6332000000000001
+		p=0.3906896551724138 num_iter=2.0 fraction_A=0.6094 fraction_B=0.6094
+		p=0.4144827586206896 num_iter=2.0 fraction_A=0.5856000000000001 fraction_B=0.5856000000000001
+		p=0.4382758620689655 num_iter=2.0 fraction_A=0.5618 fraction_B=0.5618
+		p=0.46206896551724136 num_iter=2.0 fraction_A=0.5380000000000001 fraction_B=0.5380000000000001
+		p=0.4858620689655172 num_iter=2.0 fraction_A=0.5141999999999999 fraction_B=0.5141999999999999
+		p=0.5096551724137931 num_iter=1.9 fraction_A=0.4413600000000001 fraction_B=0.4413600000000001
+		p=0.5334482758620689 num_iter=1.9 fraction_A=0.4199400000000001 fraction_B=0.4199400000000001
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+Network B:Case 1: L ~ Weibull(L_min, lam, k), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7305400000000001 fraction_B=0.7305400000000001
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.65392 fraction_B=0.65392
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.5960000000000001 fraction_B=0.5960000000000001
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.5470700000000001 fraction_B=0.5470700000000001
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.50173 fraction_B=0.50173
+		p=0.3193103448275862 num_iter=1.2 fraction_A=0.09369000000000001 fraction_B=0.45065999999999995
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.40207
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.35831
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.31392999999999993
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.27207
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.22005000000000002
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.03463
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+Network B:Case 2: L ~ Weibull(L_min, lam, k), S = Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=1.4 fraction_A=0.29131999999999997 fraction_B=0.29131999999999997
+		p=0.29551724137931035 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3193103448275862 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.34310344827586203 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.36689655172413793 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.3906896551724138 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4144827586206896 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4382758620689655 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.46206896551724136 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.4858620689655172 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5096551724137931 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5334482758620689 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+Network B:Case 3: L ~ Uniform(L_min, L_max), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.7283 fraction_B=0.7283
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.7045000000000001 fraction_B=0.7045000000000001
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.6807 fraction_B=0.6807
+		p=0.34310344827586203 num_iter=2.0 fraction_A=0.6569000000000002 fraction_B=0.6569000000000002
+		p=0.36689655172413793 num_iter=2.0 fraction_A=0.6332000000000001 fraction_B=0.6332000000000001
+		p=0.3906896551724138 num_iter=2.0 fraction_A=0.6094 fraction_B=0.6094
+		p=0.4144827586206896 num_iter=2.0 fraction_A=0.5856000000000001 fraction_B=0.5856000000000001
+		p=0.4382758620689655 num_iter=2.0 fraction_A=0.5618 fraction_B=0.5618
+		p=0.46206896551724136 num_iter=2.0 fraction_A=0.5380000000000001 fraction_B=0.5380000000000001
+		p=0.4858620689655172 num_iter=2.0 fraction_A=0.5141999999999999 fraction_B=0.5141999999999999
+		p=0.5096551724137931 num_iter=2.0 fraction_A=0.49040000000000006 fraction_B=0.49040000000000006
+		p=0.5334482758620689 num_iter=1.7 fraction_A=0.32662 fraction_B=0.32662
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+Network B:Case 4: L ~ Uniform(L_min, L_max), S ~ Uniform(S_min, S_max)
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.7283 fraction_B=0.7283
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.7045000000000001 fraction_B=0.7045000000000001
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.6807 fraction_B=0.6807
+		p=0.34310344827586203 num_iter=2.0 fraction_A=0.6569000000000002 fraction_B=0.6569000000000002
+		p=0.36689655172413793 num_iter=2.0 fraction_A=0.6332000000000001 fraction_B=0.6332000000000001
+		p=0.3906896551724138 num_iter=2.0 fraction_A=0.6094 fraction_B=0.6094
+		p=0.4144827586206896 num_iter=2.0 fraction_A=0.5856000000000001 fraction_B=0.5856000000000001
+		p=0.4382758620689655 num_iter=2.0 fraction_A=0.5618 fraction_B=0.5618
+		p=0.46206896551724136 num_iter=2.0 fraction_A=0.5380000000000001 fraction_B=0.5380000000000001
+		p=0.4858620689655172 num_iter=2.0 fraction_A=0.5141999999999999 fraction_B=0.5141999999999999
+		p=0.5096551724137931 num_iter=2.0 fraction_A=0.49040000000000006 fraction_B=0.49040000000000006
+		p=0.5334482758620689 num_iter=1.8 fraction_A=0.37328000000000006 fraction_B=0.37328000000000006
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
+**********************************
+Network A:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+Network B:Case 5: L ~ Pareto(L_min, b), S = alpha * L
+	N=10000 num_experiments=10
+		p=0.01 num_iter=2.0 fraction_A=0.99 fraction_B=0.99
+		p=0.03379310344827586 num_iter=2.0 fraction_A=0.9663000000000002 fraction_B=0.9663000000000002
+		p=0.05758620689655172 num_iter=2.0 fraction_A=0.9425000000000001 fraction_B=0.9425000000000001
+		p=0.08137931034482758 num_iter=2.0 fraction_A=0.9187 fraction_B=0.9187
+		p=0.10517241379310344 num_iter=2.0 fraction_A=0.8949 fraction_B=0.8949
+		p=0.1289655172413793 num_iter=2.0 fraction_A=0.8711 fraction_B=0.8711
+		p=0.15275862068965518 num_iter=2.0 fraction_A=0.8472999999999999 fraction_B=0.8472999999999999
+		p=0.17655172413793102 num_iter=2.0 fraction_A=0.8234999999999999 fraction_B=0.8234999999999999
+		p=0.2003448275862069 num_iter=2.0 fraction_A=0.7996999999999999 fraction_B=0.7996999999999999
+		p=0.22413793103448276 num_iter=2.0 fraction_A=0.7759 fraction_B=0.7759
+		p=0.2479310344827586 num_iter=2.0 fraction_A=0.7521000000000001 fraction_B=0.7521000000000001
+		p=0.27172413793103445 num_iter=2.0 fraction_A=0.7283 fraction_B=0.7283
+		p=0.29551724137931035 num_iter=2.0 fraction_A=0.7045000000000001 fraction_B=0.7045000000000001
+		p=0.3193103448275862 num_iter=2.0 fraction_A=0.6807 fraction_B=0.6807
+		p=0.34310344827586203 num_iter=2.0 fraction_A=0.6569000000000002 fraction_B=0.6569000000000002
+		p=0.36689655172413793 num_iter=2.0 fraction_A=0.6332000000000001 fraction_B=0.6332000000000001
+		p=0.3906896551724138 num_iter=2.0 fraction_A=0.6094 fraction_B=0.6094
+		p=0.4144827586206896 num_iter=2.0 fraction_A=0.5856000000000001 fraction_B=0.5856000000000001
+		p=0.4382758620689655 num_iter=2.0 fraction_A=0.5618 fraction_B=0.5618
+		p=0.46206896551724136 num_iter=2.0 fraction_A=0.5380000000000001 fraction_B=0.5380000000000001
+		p=0.4858620689655172 num_iter=2.0 fraction_A=0.5141999999999999 fraction_B=0.5141999999999999
+		p=0.5096551724137931 num_iter=2.0 fraction_A=0.49040000000000006 fraction_B=0.49040000000000006
+		p=0.5334482758620689 num_iter=1.7 fraction_A=0.32662 fraction_B=0.32662
+		p=0.5572413793103448 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.5810344827586207 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6048275862068965 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6286206896551724 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6524137931034483 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.6762068965517241 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+		p=0.7 num_iter=1.0 fraction_A=0.0 fraction_B=0.0
+**********************************
